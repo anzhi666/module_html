@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Отзывы</title>
+    </head>
+    <body>
+        <header>
+            <h1>
+                Отзывы на товар
+            </h1>
+        </header>
+        <main>
+            <form name="review" action="#" method="GET">
+                <label for="name">
+                    <p>
+                        Введите имя
+                    </p>
+                </label>
+                <input type="text" id="name" placeholder="Имя" required>
+
+                <label for="email">
+                    <p>
+                        Введите email
+                    </p>
+                </label>
+                <input type="email" id="email" placeholder="Email" required>
+
+                <label for="grade">
+                    <p>
+                        Оценка
+                    </p>
+                </label>
+                <select id="grade" name="grade">
+                    <option value="1">
+                        1 звезда
+                    </option>
+                    <option value="2">
+                        2 звезды
+                    </option>
+                    <option value="3">
+                        3 звезды
+                    </option>
+                    <option value="4">
+                        4 звезды
+                    </option>
+                    <option value="5">
+                        5 звезд
+                    </option>
+                </select>
+
+                <label for="reccomend">
+                    <p>
+                        Рекомендую
+                    </p>
+                </label>
+                <input type="radio" id="reccomend" name="recc" value="rec">
+
+                <label for="noreccomend">
+                    <p>
+                        Не рекомендую
+                    </p>
+                </label>
+                <input type="radio" id="noreccomend" name="recc" value="norec">
+
+                <br>
+
+                <label for="liked">
+                    <p>
+                        Нравится
+                    </p>
+                </label>
+                <textarea name="liked" id="liked" cols="30" rows="5" placeholder="Что вам понравилось?"></textarea>
+
+                <label for="noliked">
+                    <p>
+                        Не нравится
+                    </p>
+                </label>
+                <textarea name="noliked" id="noliked" cols="30" rows="5" placeholder="Что вам не понравилось?"></textarea>
+
+                <br>
+
+                <button type="submit">
+                    Отправить
+                </button>
+            </form>
+        </main>
+        <footer>
+            <h3>
+                Наш адрес: г. Минск ул. Аэродромная 666
+            </h3>
+
+            <br>
+
+            <a href="index.html" target="blank">
+                Сделать заказ
+            </a>
+        </footer>
+    </body>
+</html>
