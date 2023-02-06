@@ -11,80 +11,82 @@
             </h1>
         </header>
         <main>
-        <form name="pizza" action="#" method="GET">
-                <label for="name">
-                    <p>
-                        Имя
-                    </p>
-                </label>
-                    <input type="text" id="name" placeholder="Введите имя" value="name">
-                
-                <label for="tel">
-                    <p>
-                        Адрес
-                    </p>
-                </label>
-                    <input type="text" id="tel" placeholder="Укажите ваш адрес" value="tel">
+            <form name="pizza" action="#" method="GET">
+                    <label for="name">
+                        <p>
+                            Имя
+                        </p>
+                    </label>
+                    <input type="text" id="name" required placeholder="Введите имя" >
+                    
+                    <label for="tel">
+                        <p>
+                            Адрес
+                        </p>
+                    </label>
+                    <input type="text" id="tel" placeholder="Укажите ваш адрес" required>
 
-                <label for="pizza">
-                    <p>
-                        Пицца
-                    </p>
-                </label>
-                <select id="pizza" name="pizza">
-                    <option value="margarita">Маргарита</option>
-                    <option value="peperoni">Пеперони</option>
-                    <option value="gavayskay">Гавайская</option>
-                    <option value="karbonara" selected>Карбонара</option>
-                    <option value="vega">Вега</option>
-                </select>
-                
-                <label for="size">
-                    <p>
-                        Размер пиццы
-                    </p>
-                </label>
-                <label>
+                    <label for="pizza">
+                        <p>
+                            Пицца
+                        </p>
+                    </label>
+                    <select id="pizza" name="pizza">
+                        <option value="margarita">Маргарита</option>
+                        <option value="peperoni">Пеперони</option>
+                        <option value="gavayskay">Гавайская</option>
+                        <option value="karbonara" selected>Карбонара</option>
+                        <option value="vega">Вега</option>
+                    </select>
+                    
+                    <label for="size">
+                        <p>
+                            Размер пиццы
+                        </p>
+                    </label>
+                    <label>
                         L <!-- Или лучше брать "L" в параграф(<p>), но на странице оно отображает не красиво) -->
                     <input type="radio" name="size" value="L">
-                </label>
-                <label>
+                    </label>
+                    <label>
                         XL
-                    <input type="radio" name="size" value="XL">
-                </label>
-                <label>
+                        <input type="radio" name="size" value="XL">
+                    </label>
+                    <label>
                         XXL
-                    <input type="radio" name="size" value="XXL" checked>
-                </label>
-                <label>
+                        <input type="radio" name="size" value="XXL" checked>
+                    </label>
+                    <label>
                         XXXL
-                    <input type="radio" name="size" value="XXXL">
-                </label>
+                        <input type="radio" name="size" value="XXXL">
+                    </label>
 
-                <label for="cheese">
-                    <p>
-                        Дополнительный сыр?
-                    </p>
-                </label>
-                <input type="checkbox" id="cheese" value="cheese">
+                    <label for="cheese">
+                        <p>
+                            Дополнительный сыр?
+                        </p>
+                    </label>
+                    <input type="checkbox" id="cheese" value="cheese" checked>
 
-                <br>
-                </br>
+                    <br>
 
-                <button type="submit">
-                    Отправить
-                </button>          
-        </form> 
+                    <button type="submit">
+                        Отправить
+                    </button>          
+            </form> 
         </main>
         <footer>
-            <h3>
+            <h2>
                 Наш адрес: г. Минск ул. Аэродромная 666
-                <br>
-                </br>
+            </h2>
+
+            <br>
+
+            <p>
                 <a href="review.html" target="blank">
                     Отзывы
                 </a>
-            </h3>
+            </p>
         </footer>
     </body>
 </html>

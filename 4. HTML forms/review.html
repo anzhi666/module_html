@@ -17,14 +17,14 @@
                         Введите имя
                     </p>
                 </label>
-                <input type="text" id="name" value="name">
+                <input type="text" id="name" placeholder="Имя" required>
 
                 <label for="email">
                     <p>
                         Введите email
                     </p>
                 </label>
-                    <input type="email" id="email" value="email">
+                <input type="email" id="email" placeholder="Email" required>
 
                 <label for="grade">
                     <p>
@@ -64,17 +64,13 @@
                 <input type="radio" id="noreccomend" name="recc" value="norec">
 
                 <br>
-                </br>
-                <br>
-                </br>
 
                 <label for="liked">
                     <p>
                         Нравится
                     </p>
                 </label>
-                <textarea cols="30" rows="5" id="liked">
-                    Что вам понравилось?
+                <textarea name="liked" id="liked" cols="30" rows="5" placeholder="Что вам понравилось?">
                 </textarea>
 
                 <label for="noliked">
@@ -82,12 +78,10 @@
                         Не нравится
                     </p>
                 </label>
-                <textarea cols="30" rows="5" id="noliked">
-                    Что вам не понравилось?
+                <textarea name="noliked" id="noliked" cols="30" rows="5" placeholder="Что вам не понравилось?">
                 </textarea>
 
                 <br>
-                </br>
 
                 <button type="submit">
                     Отправить
@@ -97,12 +91,13 @@
         <footer>
             <h3>
                 Наш адрес: г. Минск ул. Аэродромная 666
-                <br>
-                </br>
-                <a href="index.html" target="blank">
-                Сделать заказ
-                </a>
             </h3>
+
+            <br>
+
+            <a href="index.html" target="blank">
+                Сделать заказ
+            </a>
         </footer>
     </body>
 </html>
