@@ -14,10 +14,12 @@
 }
 
 .model {
+
     width: 350px;
     margin: auto;
     background-color: #fefefe;
     border-radius: 3px;
+    margin-top: 35vh;
 
 }
 
