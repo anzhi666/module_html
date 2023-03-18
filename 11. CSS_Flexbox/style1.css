@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+    max-width: 170px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.menu {
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.menu__items {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.menu__items:hover {
+    opacity: 0.7;
+}
+
+.menu__items-fridge {
+   background-color: #ffd67f;
+}
+
+.menu__items-tires {
+    background-color: #997fff;
+}
+
+.menu__items-cleaner {
+    background-color: #ff7f7f;
+}
+
+.menu__items-oil {
+    background-color: #7fffd9;
+}
+
+.menu__items-stroller {
+    background-color: #7fd0ff;
+}
+
+.menu__items-speaker {
+    background-color: #9fff7f;
+}
+
+.menu__items-text {
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.menu__items-text--small {
+    font-size: 12px;
+    text-align: center;
+}

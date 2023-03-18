@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #cfadee;
+    border: 2px solid #71588b;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.menu__item__main {
+    margin-left: 20px;
+}
+
+.menu__item__help {
+    padding: 0 50px 0 50px;
+    border-right: 2px solid #71588b;
+    border-left: 2px solid #71588b;
+}
+
+.menu__item__about {
+    margin-right: 20px;
+}
+
+.menu__item__burger-menu {
+    margin: 0 auto;
+    margin-top: 10px;
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .menu__item__main {
+        display: none;
+    }
+
+    .menu__item__help {
+        display: none;
+    }
+
+    .menu__item__about {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .menu__item__burger-menu {
+        display: block;
+    }
+}
+

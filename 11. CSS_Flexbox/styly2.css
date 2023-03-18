@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.menu__items {
+    display: flex;
+    width: 25%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.menu__items-fridge {
+    display: flex;
+    flex-direction: column;
+}

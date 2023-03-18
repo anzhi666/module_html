@@ -1,11 +1,11 @@
 div {
-    font-family: 'Arial', Times, serif;
+    font-family: Arial, Times, serif;
     font-size: 20px;
     width: 60%;
     background-color: rgb(85, 85, 85);
     border: 5px solid red;
     border-radius: 15px;
-    border-width: 5px;
+    border-width: 10px;
 }
 
 .Warning {

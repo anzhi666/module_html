@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000000;
+    color: #ffffff;
+}
+
+.menu {
+    border-bottom: 2px solid #6a6a6a;
+    padding-top: 10px;
+}
+
+.menu__items-logo-text {
+    float: right;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.menu__items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    border: 2px border #cbcbcb;
+}
+
+.table {
+    border-bottom: 2px solid #6a6a6a;
+    padding-top: 30px;
+}
+
+.table__header {
+    padding-left: 46%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.table__main {
+    padding: 10px;
+    line-height: 2;
+}
+
+.phones {
+    border-bottom: 2px solid #6a6a6a;
+    padding-top: 30px;
+}
+
+.phones__header {
+    padding-left: 38%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.phones__main {
+    padding: 10px;
+    line-height: 2;
+}
+
+.connect {
+    border-bottom: 2px solid #6a6a6a;
+    padding-top: 30px;
+}
+
+.connect__header {
+    padding-left: 44.4%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.connect__contacts {
+    padding: 10px;
+    line-height: 1;
+    font-size: 10px;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.reviews {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    border-bottom: 1px solid #6a6a6a;
+    padding-bottom: 10px;
+}
+
+.reviews__name {
+    margin-bottom: 10px;
+    font-weight: 700; 
+}
+
+.avatars {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 15px;
+}
+
+.reviews__text {
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.reviews__roman {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    border-bottom: 1px solid #6a6a6a;
+    padding-bottom: 50px;
+}
+
+.reviews__name__roman {
+    margin-bottom: 10px;
+    font-weight: 700; 
+}
+
+.reviews__text__roman {
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.reviews__anna {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    border-bottom: 1px solid #6a6a6a;
+    padding-bottom: 20px;
+}
+
+.reviews__name__anna {
+    margin-bottom: 10px;
+    font-weight: 700; 
+}
+
+.reviews__text__anna {
+    text-align: left;
+    word-wrap: break-word;
+}
